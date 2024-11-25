@@ -46,8 +46,6 @@ Modo Escuro
 
 📂 Estrutura do Projeto
 
-Copiar código
-
 src/
 
 ├── components/

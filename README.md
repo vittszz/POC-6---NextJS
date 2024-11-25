@@ -108,7 +108,7 @@ O sistema desativa os assentos já reservados (cinza escuro).
 
 Exemplo de Seleção:
 
-Modo Claro/Escuro
+Modo Claro/Escuro:
    
 - Alternância rápida entre os modos através do botão no cabeçalho.
 
@@ -116,11 +116,11 @@ Modo Claro/Escuro
 
 Preview:
 
- Compra Dinâmica
+ Compra Dinâmica:
 
-O botão "Comprar" exibe o valor total com base nos assentos selecionados.
+- O botão "Comprar" exibe o valor total com base nos assentos selecionados.
 
-Caso nenhum assento esteja selecionado, o valor será R$ 0.00.
+- Caso nenhum assento esteja selecionado, o valor será R$ 0.00.
 
 Exemplo de Compra:
 

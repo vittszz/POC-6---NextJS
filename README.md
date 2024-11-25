@@ -97,7 +97,7 @@ http://localhost:3000
 
 🖼️ Funcionalidades em Detalhe
 
-1. Seleção de Assentos
+ Seleção de Assentos
    
 Clique em qualquer assento disponível para selecioná-lo.
 
@@ -115,7 +115,7 @@ Tema escuro para ambientes com pouca luz e tema claro para leitura diurna.
 
 Preview:
 
-5. Compra Dinâmica
+ Compra Dinâmica
 
 O botão "Comprar" exibe o valor total com base nos assentos selecionados.
 

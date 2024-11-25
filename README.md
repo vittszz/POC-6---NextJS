@@ -49,15 +49,27 @@ npm start
 Acesse o projeto em http://localhost:3000.
 
 Estrutura do Projeto
+
 kotlin
+
+
 Copiar código
 src/
+
 ├── components/
+
 │   └── CinemaSeats.js    # Componente principal do sistema de assentos
+
 ├── pages/
+
 │   └── globals.css       # Estilos globais do projeto
+
 ├── data/
+
+
 │   └── movie.json        # Dados do filme
+
+
 └── App.js                # Entrada principal do React
 Explicação dos Principais Arquivos
 CinemaSeats.js

@@ -100,11 +100,11 @@ http://localhost:3000
 
  Seleção de Assentos:
    
-Clique em qualquer assento disponível para selecioná-lo.
+- Clique em qualquer assento disponível para selecioná-lo.
 
-Assentos selecionados serão destacados.
+- Assentos selecionados serão destacados.
 
-O sistema desativa os assentos já reservados (cinza escuro).
+- O sistema desativa os assentos já reservados (cinza escuro).
 
 Exemplo de Seleção:
 
@@ -144,7 +144,7 @@ Dados do Filme:
 Os dados do filme são carregados a partir do arquivo movie.json. Exemplo de estrutura:
 
 json
-Copiar código
+
 {
   "title": "A Forja",
   "time": "16:40",
@@ -161,7 +161,7 @@ Temas Claro e Escuro
 As cores do tema são definidas em globals.css com as variáveis:
 
 css
-Copiar código
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -180,8 +180,5 @@ Copiar código
 
 ✅ Permitir personalização do layout por administrador.
 
-🤝 Contribuindo
-
-Contribuições são bem-vindas!
 
 

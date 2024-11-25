@@ -23,11 +23,17 @@ Alternância entre dois temas para melhor experiência visual.
 Adaptação perfeita para dispositivos móveis, tablets e desktops.
 
 🛠️ Tecnologias Utilizadas
+
 React: Construção da interface interativa.
+
 Tailwind CSS: Estilização moderna e responsiva.
+
 CSS Custom Properties: Gerenciamento de temas claro e escuro.
+
 JavaScript: Manipulação de lógica de seleção e cálculo de preço.
+
 🎬 Pré-visualização do Projeto
+
 Modo Claro
 
 ![image](https://github.com/user-attachments/assets/cae82cef-f64a-4441-ad79-63d2e74fa10e)
@@ -49,6 +55,7 @@ src/
 │   └── CinemaSeats.js    # Componente principal para exibição e seleção de assentos
 
 ├── pages/
+
 │   └── globals.css       # Estilos globais para o projeto
 
 ├── data/

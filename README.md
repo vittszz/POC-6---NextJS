@@ -2,6 +2,7 @@
 Projeto assentos cinema
 
 Cinema Seat Reservation
+
 Este é um projeto de sistema de reservas de assentos para cinemas, desenvolvido em React com suporte a modo claro e escuro e interface responsiva para dispositivos móveis. Ele permite selecionar assentos, alternar entre temas claro/escuro e ajustar automaticamente o layout para diferentes tamanhos de tela.
 
 Funcionalidades

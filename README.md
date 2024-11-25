@@ -1,55 +1,73 @@
-# POC-6---NextJS
-Projeto assentos cinema
+🎥 Cinema Seat Reservation
 
-Cinema Seat Reservation
+![image](https://github.com/user-attachments/assets/211f6696-1e0c-436a-8b76-9e6c2fabb0b9)
 
-Este é um projeto de sistema de reservas de assentos para cinemas, desenvolvido em React com suporte a modo claro e escuro e interface responsiva para dispositivos móveis. Ele permite selecionar assentos, alternar entre temas claro/escuro e ajustar automaticamente o layout para diferentes tamanhos de tela.
 
-Funcionalidades
+Este é um projeto interativo de reserva de assentos de cinema, com suporte a modo claro/escuro, interface responsiva e funcionalidades intuitivas, como seleção de assentos e cálculo dinâmico do preço total.
 
-Seleção de Assentos:
+🚀 Funcionalidades
 
-Os assentos podem ser selecionados clicando sobre eles.
+✔️ Seleção Dinâmica de Assentos:
 
-Os assentos indisponíveis estão desativados e visualmente destacados.
+Os usuários podem selecionar ou desmarcar os assentos disponíveis. Assentos já reservados são desativados.
 
-O preço total da compra é calculado com base nos assentos selecionados.
+✔️ Cálculo de Preço Automático:
 
-Modo Claro/Escuro:
+O valor total é atualizado em tempo real com base nos assentos selecionados.
 
-Um botão no cabeçalho permite alternar entre o modo claro e escuro.
+✔️ Modo Claro/Escuro:
 
-As cores do layout se ajustam automaticamente com base no tema selecionado.
+Alternância entre dois temas para melhor experiência visual.
 
-Responsividade:
+✔️ Layout Responsivo:
+Adaptação perfeita para dispositivos móveis, tablets e desktops.
 
-O layout é adaptado para funcionar bem em desktops, tablets e dispositivos móveis.
+🛠️ Tecnologias Utilizadas
+React: Construção da interface interativa.
+Tailwind CSS: Estilização moderna e responsiva.
+CSS Custom Properties: Gerenciamento de temas claro e escuro.
+JavaScript: Manipulação de lógica de seleção e cálculo de preço.
+🎬 Pré-visualização do Projeto
+Modo Claro
 
-O grid de assentos ajusta o número de colunas de acordo com o tamanho da tela.
+![image](https://github.com/user-attachments/assets/cae82cef-f64a-4441-ad79-63d2e74fa10e)
 
-Compra Simulada:
 
-Um botão de "Comprar" exibe uma mensagem simulando a confirmação da compra.
+Modo Escuro
 
-Tecnologias Utilizadas
+![image](https://github.com/user-attachments/assets/84614da6-1f9b-488d-a657-e718eb3dbda0)
 
-React: Para construir a interface do usuário.
 
-Tailwind CSS: Para estilização e responsividade.
+📂 Estrutura do Projeto
 
-CSS Custom Properties: Para definir temas claros e escuros com variáveis CSS.
+Copiar código
 
-Como Executar o Projeto
+src/
 
-Pré-requisitos
+├── components/
 
-Ter o Node.js instalado na sua máquina.
+│   └── CinemaSeats.js    # Componente principal para exibição e seleção de assentos
 
-Um gerenciador de pacotes como npm ou yarn.
+├── pages/
+│   └── globals.css       # Estilos globais para o projeto
 
-Instalação
+├── data/
 
-Clone este repositório:
+│   └── movie.json        # Dados do filme (exemplo)
+
+└── App.js                # Entrada principal do React
+
+⚙️ Como Executar o Projeto
+
+1. Pré-requisitos
+
+Node.js instalado (versão 14 ou superior recomendada).
+
+Gerenciador de pacotes como npm ou yarn.
+
+3. Instalação
+4. 
+Clone o repositório:
 
 bash
 
@@ -59,9 +77,11 @@ git clone https://github.com/seu-usuario/cinema-seat-reservation.git
 
 cd cinema-seat-reservation
 
-Instale as dependências do projeto:
+Instale as dependências:
 
 bash
+
+Copiar código
 
 npm install
 
@@ -69,89 +89,97 @@ Inicie o servidor de desenvolvimento:
 
 bash
 
+Copiar código
+
 npm start
 
-Acesse o projeto em http://localhost:3000.
+Acesse o projeto no navegador:
 
-Estrutura do Projeto
-
-kotlin
-
+text
 
 Copiar código
 
-src/
+http://localhost:3000
 
-├── components/
+🖼️ Funcionalidades em Detalhe
 
-│   └── CinemaSeats.js    # Componente principal do sistema de assentos
+1. Seleção de Assentos
+   
+Clique em qualquer assento disponível para selecioná-lo.
 
-├── pages/
+Assentos selecionados serão destacados.
 
-│   └── globals.css       # Estilos globais do projeto
+O sistema desativa os assentos já reservados (cinza escuro).
 
-├── data/
+Exemplo de Seleção:
+
+3. Modo Claro/Escuro
+Alternância rápida entre os modos através do botão no cabeçalho.
+Tema escuro para ambientes com pouca luz e tema claro para leitura diurna.
+Preview:
+
+4. Compra Dinâmica
+O botão "Comprar" exibe o valor total com base nos assentos selecionados.
+Caso nenhum assento esteja selecionado, o valor será R$ 0.00.
+Exemplo de Compra:
+
+📱 Responsividade
+
+O layout se adapta automaticamente a diferentes dispositivos:
+
+Dispositivo	Comportamento
+
+Desktop	Exibe 10 colunas de assentos.
+
+Tablet	Ajusta para 5 colunas.
+
+Mobile	Ajusta para 4 colunas.
+
+🛠️ Personalização do Projeto
 
 
-│   └── movie.json        # Dados do filme
+Dados do Filme
+Os dados do filme são carregados a partir do arquivo movie.json. Exemplo de estrutura:
 
+json
+Copiar código
+{
+  "title": "A Forja",
+  "time": "16:40",
+  "description": "Um ano depois de encerrar o ensino médio...",
+  "releaseDate": "26 de setembro de 2024",
+  "director": "Alex Kendrick",
+  "seats": [
+    ["available", "available", "unavailable"],
+    ["available", "unavailable", "available"]
+  ],
+  "pricePerSeat": 12.5
+}
+Temas Claro e Escuro
+As cores do tema são definidas em globals.css com as variáveis:
 
-└── App.js                # Entrada principal do React
-Explicação dos Principais Arquivos
-CinemaSeats.js
-Responsável por:
-Exibir o grid de assentos.
-Lidar com a seleção de assentos.
-Calcular o total do preço da compra.
-Alternar entre os modos claro e escuro.
-globals.css
-Contém:
-Variáveis para o tema claro e escuro (--background, --foreground).
-Estilos para tornar o layout responsivo.
-Configurações para o grid de assentos e botões.
-movie.json
-Exemplo de dados do filme, com informações como:
-Título.
-Horário de exibição.
-Descrição.
-Preço por assento.
-Disponibilidade dos assentos.
-Estilos e Responsividade
-Modo Claro e Escuro:
+css
+Copiar código
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
 
-As cores de fundo e texto são definidas usando as variáveis CSS:
---background: Cor de fundo.
---foreground: Cor do texto.
-A classe dark no elemento <html> ativa o tema escuro.
-Responsividade:
+.dark {
+  --background: #0a0a0a;
+  --foreground: #ffffff;
+}
 
-O grid de assentos usa CSS Grid e ajusta o número de colunas com base no tamanho da tela:
-Desktop: 10 colunas.
-Tablet: 5 colunas.
-Mobile: 4 colunas.
-Comportamento das Funcionalidades
-Seleção de Assentos
-Clicando em um assento disponível, ele é selecionado e marcado visualmente.
-Clicando novamente no assento, ele é desmarcado.
-Os assentos indisponíveis não podem ser clicados.
-Botão de Compra
-Mostra o preço total com base nos assentos selecionados.
-Caso nenhum assento seja selecionado, o valor exibido será R$ 0.00.
-Tema Claro/Escuro
-O botão no cabeçalho alterna entre os dois temas.
-A classe dark é adicionada ou removida do <html> dinamicamente.
-Melhorias Futuras
-Implementar autenticação para reserva de assentos.
-Salvar as seleções no armazenamento local ou em um backend.
-Adicionar uma animação ao alternar entre os temas.
+📚 Melhorias Futuras
 
-Codigo rodando:
+✅ Adicionar animações ao alternar temas.
 
-Light Mode:
+✅ Implementar um backend para persistência de reservas.
 
-![image](https://github.com/user-attachments/assets/f19efcfe-76e1-4e14-bb51-aaf3b746f458)
+✅ Permitir personalização do layout por administrador.
 
-DarkMode: 
+🤝 Contribuindo
 
-![image](https://github.com/user-attachments/assets/2e7dd801-48f4-4fa5-b888-3f4a2088ab72)
+Contribuições são bem-vindas!
+
 

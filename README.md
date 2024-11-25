@@ -54,6 +54,7 @@ kotlin
 
 
 Copiar código
+
 src/
 
 ├── components/
@@ -118,20 +119,14 @@ Melhorias Futuras
 Implementar autenticação para reserva de assentos.
 Salvar as seleções no armazenamento local ou em um backend.
 Adicionar uma animação ao alternar entre os temas.
-Contribuição
-Contribuições são bem-vindas! Siga os passos abaixo:
 
-Faça um fork do repositório.
-Crie uma nova branch:
-bash
-Copiar código
-git checkout -b minha-nova-feature
-Commit suas mudanças:
-bash
-Copiar código
-git commit -m "Minha nova feature"
-Faça o push para a branch:
-bash
-Copiar código
-git push origin minha-nova-feature
-Abra um Pull Request.
+Codigo rodando:
+
+Light Mode:
+
+![image](https://github.com/user-attachments/assets/f19efcfe-76e1-4e14-bb51-aaf3b746f458)
+
+DarkMode: 
+
+![image](https://github.com/user-attachments/assets/2e7dd801-48f4-4fa5-b888-3f4a2088ab72)
+

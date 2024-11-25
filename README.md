@@ -64,8 +64,7 @@ src/
 
 ⚙️ Como Executar o Projeto
 
-1. Pré-requisitos
-
+ Pré-requisitos
 Node.js instalado (versão 14 ou superior recomendada).
 
 Gerenciador de pacotes como npm ou yarn.

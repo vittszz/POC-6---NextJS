@@ -143,7 +143,7 @@ Dados do Filme:
 
 Os dados do filme são carregados a partir do arquivo movie.json. Exemplo de estrutura:
 
-json
+json :
 
 {
   "title": "A Forja",
@@ -160,7 +160,7 @@ json
 Temas Claro e Escuro
 As cores do tema são definidas em globals.css com as variáveis:
 
-css
+css :
 
 :root {
   --background: #ffffff;

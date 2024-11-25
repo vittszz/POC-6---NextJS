@@ -6,47 +6,71 @@ Cinema Seat Reservation
 Este é um projeto de sistema de reservas de assentos para cinemas, desenvolvido em React com suporte a modo claro e escuro e interface responsiva para dispositivos móveis. Ele permite selecionar assentos, alternar entre temas claro/escuro e ajustar automaticamente o layout para diferentes tamanhos de tela.
 
 Funcionalidades
+
 Seleção de Assentos:
 
 Os assentos podem ser selecionados clicando sobre eles.
+
 Os assentos indisponíveis estão desativados e visualmente destacados.
+
 O preço total da compra é calculado com base nos assentos selecionados.
+
 Modo Claro/Escuro:
 
 Um botão no cabeçalho permite alternar entre o modo claro e escuro.
+
 As cores do layout se ajustam automaticamente com base no tema selecionado.
+
 Responsividade:
 
 O layout é adaptado para funcionar bem em desktops, tablets e dispositivos móveis.
+
 O grid de assentos ajusta o número de colunas de acordo com o tamanho da tela.
+
 Compra Simulada:
 
 Um botão de "Comprar" exibe uma mensagem simulando a confirmação da compra.
+
 Tecnologias Utilizadas
+
 React: Para construir a interface do usuário.
+
 Tailwind CSS: Para estilização e responsividade.
+
 CSS Custom Properties: Para definir temas claros e escuros com variáveis CSS.
+
 Como Executar o Projeto
+
 Pré-requisitos
+
 Ter o Node.js instalado na sua máquina.
+
 Um gerenciador de pacotes como npm ou yarn.
+
 Instalação
+
 Clone este repositório:
 
 bash
+
 Copiar código
+
 git clone https://github.com/seu-usuario/cinema-seat-reservation.git
+
 cd cinema-seat-reservation
+
 Instale as dependências do projeto:
 
 bash
-Copiar código
+
 npm install
+
 Inicie o servidor de desenvolvimento:
 
 bash
-Copiar código
+
 npm start
+
 Acesse o projeto em http://localhost:3000.
 
 Estrutura do Projeto

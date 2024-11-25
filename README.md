@@ -20,6 +20,7 @@ O valor total é atualizado em tempo real com base nos assentos selecionados.
 Alternância entre dois temas para melhor experiência visual.
 
 ✔️ Layout Responsivo:
+
 Adaptação perfeita para dispositivos móveis, tablets e desktops.
 
 🛠️ Tecnologias Utilizadas
@@ -64,39 +65,40 @@ src/
 
 ⚙️ Como Executar o Projeto
 
- Pré-requisitos
-Node.js instalado (versão 14 ou superior recomendada).
+ Pré-requisitos:
+ 
+  - Node.js instalado (versão 14 ou superior recomendada).
 
 Gerenciador de pacotes como npm ou yarn.
 
 
 Instale as dependências:
 
-bash
+ - bash
 
-Copiar código
+ - Copiar código
 
-npm install
+ - npm install
 
 Inicie o servidor de desenvolvimento:
 
-bash
+- bash
 
-Copiar código
+- Copiar código
 
-npm start
+- npm start
 
 Acesse o projeto no navegador:
 
-text
+- text
 
-Copiar código
+- Copiar código
 
 http://localhost:3000
 
 🖼️ Funcionalidades em Detalhe
 
- Seleção de Assentos
+ Seleção de Assentos:
    
 Clique em qualquer assento disponível para selecioná-lo.
 
@@ -106,11 +108,11 @@ O sistema desativa os assentos já reservados (cinza escuro).
 
 Exemplo de Seleção:
 
-3. Modo Claro/Escuro
+Modo Claro/Escuro
    
-Alternância rápida entre os modos através do botão no cabeçalho.
+- Alternância rápida entre os modos através do botão no cabeçalho.
 
-Tema escuro para ambientes com pouca luz e tema claro para leitura diurna.
+- Tema escuro para ambientes com pouca luz e tema claro para leitura diurna.
 
 Preview:
 
@@ -128,11 +130,11 @@ O layout se adapta automaticamente a diferentes dispositivos:
 
 Dispositivo	Comportamento
 
-Desktop	Exibe 10 colunas de assentos.
+- Desktop	Exibe 10 colunas de assentos.
 
-Tablet	Ajusta para 5 colunas.
+- Tablet	Ajusta para 5 colunas.
 
-Mobile	Ajusta para 4 colunas.
+- Mobile	Ajusta para 4 colunas.
 
 🛠️ Personalização do Projeto
 

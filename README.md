@@ -70,17 +70,6 @@ Node.js instalado (versão 14 ou superior recomendada).
 
 Gerenciador de pacotes como npm ou yarn.
 
-3. Instalação
-4. 
-Clone o repositório:
-
-bash
-
-Copiar código
-
-git clone https://github.com/seu-usuario/cinema-seat-reservation.git
-
-cd cinema-seat-reservation
 
 Instale as dependências:
 
@@ -119,13 +108,19 @@ O sistema desativa os assentos já reservados (cinza escuro).
 Exemplo de Seleção:
 
 3. Modo Claro/Escuro
+   
 Alternância rápida entre os modos através do botão no cabeçalho.
+
 Tema escuro para ambientes com pouca luz e tema claro para leitura diurna.
+
 Preview:
 
-4. Compra Dinâmica
+5. Compra Dinâmica
+
 O botão "Comprar" exibe o valor total com base nos assentos selecionados.
+
 Caso nenhum assento esteja selecionado, o valor será R$ 0.00.
+
 Exemplo de Compra:
 
 📱 Responsividade
@@ -143,7 +138,8 @@ Mobile	Ajusta para 4 colunas.
 🛠️ Personalização do Projeto
 
 
-Dados do Filme
+Dados do Filme:
+
 Os dados do filme são carregados a partir do arquivo movie.json. Exemplo de estrutura:
 
 json
